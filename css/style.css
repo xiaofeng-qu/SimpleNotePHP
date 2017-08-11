@@ -1,0 +1,86 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background:url("../img/background.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*spacing*/
+.marginBottom20{
+    margin-bottom: 20px;
+}
+
+/*jumbotron style*/
+.jumbotron{
+    background-color: transparent;
+    color: black;
+    font-family: "News Cycle","Arial Narrow Bold",sans-serif;
+    text-align: center;
+    letter-spacing: 2.5px;
+    margin-top: 150px;
+    padding: 10px;
+}
+
+.jumbotron p {
+    font-weight: 600;
+}
+
+/*buttons style*/
+.signup{
+    margin-top: 50px;
+}
+.orange{
+    background-color: rgba(178, 47, 0, 0.8);
+    color:black;
+}
+.orange:hover{
+    background-color: rgb(178, 47, 0);
+}
+.green{
+    background-color: rgba(159, 198, 107, 0.8);
+    color:black;
+}
+.green:hover{
+    background-color: rgb(159, 198, 107);
+}
+/*footer style*/
+.footer{
+    background-color: #eeeeee;
+    color:black;
+    font-weight: 700 !important;
+    font-family: "News Cycle","Arial Narrow Bold",sans-serif;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* notes page */
+
+/*#notePadTextarea{
+    width: 100%;
+    max-width: 100%;
+    font-size: 16px;
+    color:blueviolet;
+    line-height: 1.5em;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border-style: solid;
+    border-color:blueviolet;
+    border-width: 1px 1px 1px 20px;
+}*/
+
+.text{
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.timetext{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
